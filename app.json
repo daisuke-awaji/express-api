@@ -1,0 +1,23 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "express-api",
+  "scripts": {
+    "postdeploy": "npm start"
+  },
+  "stack": "heroku-18"
+}
